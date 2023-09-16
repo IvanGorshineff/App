@@ -2,12 +2,7 @@ const inputElement = document.getElementById('title')
 const createBtn = document.getElementById('create')
 const listElement = document.getElementById('list')
 
-const notes = [
-  {
-    title: 'запись',
-    completed: true,
-  }
-]
+const notes = []
 
 function render() {
   listElement.innerHTML =''
